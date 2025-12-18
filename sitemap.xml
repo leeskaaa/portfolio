@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- Главная страница -->
+    <url>
+        <loc>https://leeskaaa.github.io/portfolio/</loc>
+        <lastmod>2025-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Страница "О себе" -->
+    <url>
+        <loc>https://leeskaaa.github.io/portfolio/about.html</loc>
+        <lastmod>2025-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Портфолио -->
+    <url>
+        <loc>https://leeskaaa.github.io/portfolio/portfolio.html</loc>
+        <lastmod>2025-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Контакты -->
+    <url>
+        <loc>https://leeskaaa.github.io/portfolio//contacts.html</loc>
+        <lastmod>2025-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+</urlset>
