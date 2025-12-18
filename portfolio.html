@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Мой Сайт</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Логотип" width="40">
+                <span>МойСайт</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="portfolio.html" class="active">Портфолио</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="portfolio-page">
+        <div class="portfolio-header">
+            <h1>Мои работы</h1>
+            <p>Проекты, которыми я горжусь</p>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background: linear-gradient(135deg, #a8e6cf, #dcedc1);"></div>
+                <div class="portfolio-content">
+                    <h3>Корпоративный сайт</h3>
+                    <p>Современный сайт для IT-компании</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background: linear-gradient(135deg, #ffd3b6, #ffaaa5);"></div>
+                <div class="portfolio-content">
+                    <h3>Интернет-магазин</h3>
+                    <p>Адаптивный магазин одежды</p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background: linear-gradient(135deg, #b5ead7, #c7ceea);"></div>
+                <div class="portfolio-content">
+                    <h3>Блог платформа</h3>
+                    <p>Платформа для ведения блогов</p>
+                    <div class="tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img" style="background: linear-gradient(135deg, #ffb6b9, #fae3d9);"></div>
+                <div class="portfolio-content">
+                    <h3>Мобильное приложение</h3>
+                    <p>Приложение для заметок</p>
+                    <div class="tags">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Redux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear">2025</span> Мой Сайт. Все права защищены.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
